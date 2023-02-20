@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 void main() {
+  ///Иинициализируем CounterObserver
   Bloc.observer = const CounterObserver();
   runApp(const CounterApp());
 }

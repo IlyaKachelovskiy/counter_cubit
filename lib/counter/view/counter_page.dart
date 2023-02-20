@@ -3,6 +3,8 @@ import 'package:counter_cubit/counter/view/counter_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+/// CounterPage отвечает за создание CounterCubit и предоставление его в CounterView.
+
 class CounterPage extends StatelessWidget {
   const CounterPage({super.key});
 
